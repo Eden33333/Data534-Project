@@ -4,6 +4,10 @@ output: html_notebook
 ---
 
 ```{r}
+<<<<<<< HEAD:R/test_trend.Rmd
+library("tidyverse")
+=======
+>>>>>>> ba81fd61c66031bc3f42999e83553b69980a00c4:man/vignettes.Rmd
 Sys.setenv(CKAN_API_KEY = "522bd094-7f62-4c3b-914d-bf6f0a20dc94")
 source("get_wage.R")
 source("helpers.R")
